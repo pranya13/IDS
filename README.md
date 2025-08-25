@@ -18,11 +18,6 @@ A Python-based IDS that monitors ARP traffic to detect spoofing attacks in a LAN
 - Input: Live ARP traffic from the network  
 - Process: Sniffs ARP packets → Validates IP-MAC mapping → Detects spoof → Logs  
 - Output:  
-<img width="1593" height="964" alt="image" src="https://github.com/user-attachments/assets/d5cf9808-4534-4b66-96c8-0bcf31246f17" />
-
-<img width="1593" height="964" alt="image" src="https://github.com/user-attachments/assets/0beaeb84-90d6-46db-8835-c51c6909eb1f" />
-
-
   - Console alert: `[ALERT] ARP Spoofing Detected! IP 192.168.1.1 is being spoofed by xx:xx:xx:xx`  
   - CSV log entry: `2025-08-25 19:30, ARP Spoofing Detected! IP 192.168.1.1 ...`  
 
@@ -30,3 +25,5 @@ A Python-based IDS that monitors ARP traffic to detect spoofing attacks in a LAN
 ```bash
 pip install scapy
 python ids.py
+```
+<img width="1593" height="964" alt="image" src="https://github.com/user-attachments/assets/05b6b545-f9c9-4f3a-b2c1-0c08e2464a06" />
